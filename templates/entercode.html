@@ -1,0 +1,14 @@
+<!-- errorcode.html -->
+
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Account Verification: Step 2</h1>
+<fieldset>
+  <form action="/check-code" method="POST">
+    <input class="ghost-input" name="code" type="text" placeholder="Enter your verification code" required>
+    <input class="ghost-button" type="submit" value="Verify me!">
+  </form>
+</fieldset>
+
+{% endblock %}

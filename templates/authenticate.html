@@ -1,0 +1,14 @@
+<!-- authenticate.html -->
+
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Account Verification: Step 1</h1>
+<fieldset>
+  <form action="/verify" method="POST">
+    <input name="mobile_number" class="ghost-input" type="text" placeholder="Enter your mobile number" required>
+    <input class="ghost-button" type="submit" value="Get Verification Code"> 
+  </form>
+</fieldset>
+
+{% endblock %}

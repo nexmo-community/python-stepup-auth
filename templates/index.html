@@ -1,0 +1,20 @@
+<!-- index.html -->
+
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>{{ brand }} Account Management</h1>
+
+{% if number %}
+  <p>You have verified your identity using the phone number {{ number }} and are now permitted to make changes to your account.</p>
+  <a href="logout"><input class="ghost-button" type="button" value="Log Out"></a>
+{% else %}
+  <p>Please verify your account to make changes to your settings.</p>
+  <a href="authenticate"><input class="ghost-button" type="button" value="Verify me"></a>
+{% endif %}
+
+{% if error %}
+  <p class="error-message"><strong>ERROR! {{ error }}</strong></p>
+{% endif %}
+
+{% endblock %}
