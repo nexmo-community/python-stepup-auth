@@ -18,9 +18,6 @@ VONAGE_BRAND_NAME = os.getenv("VONAGE_BRAND_NAME")
 client = Client(key=VONAGE_API_KEY, secret=VONAGE_API_SECRET)
 verify = Verify(client)
 
-global verify_number
-
-
 @app.route("/")
 def index():
     registered_number = None
