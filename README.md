@@ -1,5 +1,7 @@
 # Python Stepup Authentication Using the Vonage Verify API
 
+## ❗❗❗ **This repo is now deprecated. You can find up-to-date sample code for this and other tasks in the [Vonage Python Code Snippets repo](https://github.com/Vonage/vonage-python-code-snippets). Check the [Vonage Developer Blog](https://developer.vonage.com/en/blog) for more blog posts and tutorials. For more sample Vonage projects, check the [Vonage Community GitHub repo](https://github.com/Vonage-Community).**
+
 Please refer to the [tutorial](/verify/tutorials/step-up-authentication/introduction/python) for instructions on how to configure and run this application.
 
 This repo contains the example code for our tutorial on using the Vonage Verify API to authenticate a user by their mobile phone number. It is written in Python 3 using the Flask framework.
